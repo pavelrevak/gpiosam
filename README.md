@@ -3,6 +3,8 @@ Python fast GPIO driver for Atmel AT91SAM MCUs
 
 This class need root privileges, because it use direct memory access.
 
+request python v2.7 or v3.x
+
 Examples:
 ```python
 import gpio_sam
