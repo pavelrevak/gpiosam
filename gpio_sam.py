@@ -3,7 +3,7 @@ import mmap
 import struct
 
 
-""" Control GPIO ports on AT91SAM MCUs
+""" Control GPIO ports on Atmel SAM (AT91SAM) MCUs
 This class need root privileges
 """
 
