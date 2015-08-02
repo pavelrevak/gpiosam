@@ -9,8 +9,8 @@ Request python v2.7 or v3.x<br />
 
 ## Examples:
 ```python
-import gpio_sam
-btn = gpio_sam.Gpio('A', 27)
+import gpiosam
+btn = gpiosam.Gpio('A', 27)
 btn.enable = True
 btn.output_mode = False
 btn.pull_up = False
@@ -19,7 +19,7 @@ btn.input
   False
 btn.input
   True
-led = gpio_sam.Gpio('A', 26)
+led = gpiosam.Gpio('A', 26)
 led.enable = True
 led.output_mode = True
 led.output = True
