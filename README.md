@@ -4,7 +4,10 @@ Thanks to good design of GPIO peripheral in SAM MCU is this script fully reentra
 This driver need root privileges, because it use direct memory access.<br />
 Request python v2.7 or v3.x<br />
 
-##Examples:
+## installaction
+`sudo python setup.py install`
+
+## Examples:
 ```python
 import gpio_sam
 btn = gpio_sam.Gpio('A', 27)
@@ -29,27 +32,27 @@ led.output = not led.output
 led.output
   True
 ```
-##API:
-###Gpio(port, pin)
+## API:
+### Gpio(port, pin)
 initialize GPIO on *port* and *pin*
 
-###Gpio.enable
+### Gpio.enable
 property (rw) to enable or disable gpio
 
-###Gpio.output_mode
+### Gpio.output_mode
 property (rw) *true* to configure GPIO as output or *false* as input
 
-###Gpio.open_drain
+### Gpio.open_drain
 property (rw) to configure GPIO as open drain if is as outpu
 
-###Gpio.pull_up
+### Gpio.pull_up
 property (rw) control pull up resistors
 
-###Gpio.pull_down
+### Gpio.pull_down
 property (rw) control pull down resistors
 
-###Gpio.output
+### Gpio.output
 property (rw) to control output on GPIO
 
-###Gpio.input
+### Gpio.input
 property (r) to read GPIO value
