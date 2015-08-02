@@ -4,7 +4,7 @@ Thanks to good design of GPIO peripheral in SAM MCU is this script fully reentra
 This driver need root privileges, because it use direct memory access.<br />
 Request python v2.7 or v3.x<br />
 
-## installaction
+## installation
 `sudo python setup.py install`
 
 ## Examples:
