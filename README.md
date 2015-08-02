@@ -1,4 +1,4 @@
-# gpio_sam
+# gpiosam
 Fast GPIO Python driver for Atmel AT91SAM MCUs running Linux.<br />
 Thanks to good design of GPIO peripheral in SAM MCU is this script fully reentrant.<br />
 This driver need root privileges, because it use direct memory access.<br />
